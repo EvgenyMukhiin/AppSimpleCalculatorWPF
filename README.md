@@ -18,3 +18,7 @@
 - System.ComponentModel.Composition
 - Microsoft.Extensions.Hosting
 - FontAwesome5
+
+___Скриншоты:___
+
+![AppSimpleCalculatorWPF](https://user-images.githubusercontent.com/59354723/187093847-9b4ec7e9-8d20-418d-923b-d45ada36b771.png)
