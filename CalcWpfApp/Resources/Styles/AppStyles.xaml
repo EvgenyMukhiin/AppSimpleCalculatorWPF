@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="BaseButton" TargetType="Button">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Background" Value="DeepSkyBlue"/>
+        <Setter Property="Margin" Value="1"/>
+    </Style>
+    <Style x:Key="AppButton"
+           TargetType="Button">
+        <Setter Property="FontSize"
+                Value="20" />
+        <Setter Property="Background"
+                Value="Transparent" />
+        <Setter Property="Margin"
+                Value="1" />
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Width" Value="20"/>
+    </Style>
+    <Style x:Key="BaseListView"
+           TargetType="ListView">
+        <Setter Property="FontSize"
+                Value="14" />
+        <Setter Property="FontWeight"
+                Value="Bold" />
+        <Setter Property="Background"
+                Value="Transparent" />
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource BaseButton}"/>
+    <Style TargetType="ListView" BasedOn="{StaticResource BaseListView}"/>
+</ResourceDictionary>
